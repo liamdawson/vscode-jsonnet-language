@@ -1,0 +1,25 @@
+{
+    "name": "jsonnet-language",
+    "displayName": "Jsonnet Language Support",
+    "description": "Provides language support for Jsonnet",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jsonnet",
+            "aliases": ["Jsonnet", "jsonnet"],
+            "extensions": [".jsonnet",".libsonnet"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jsonnet",
+            "scopeName": "source.jsonnet",
+            "path": "./syntaxes/jsonnet.tmLanguage.json"
+        }]
+    }
+}
