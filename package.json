@@ -3,6 +3,15 @@
     "displayName": "Jsonnet Language Support",
     "description": "Provides language support for Jsonnet",
     "version": "1.0.0",
+    "publisher": "liamdawson",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/liamdawson/vscode-jsonnet-language.git"
+    },
+    "keywords": [
+      "jsonnet"
+    ],
     "engines": {
         "vscode": "^1.45.0"
     },
